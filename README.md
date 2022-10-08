@@ -8,9 +8,7 @@ LFS][git-lfs] and downloads your Git LFS assets during deployment
 
 To configure Git LFS for your Heroku app called `<myapp>`, run:
 
-    $ heroku buildpacks:add                                          \
-        https://github.com/radian-software/heroku-buildpack-git-lfs  \
-        -a <myapp>
+    $ heroku buildpacks:add https://github.com/mukund-9652/heroku-buildpack-git-lfs -a <myapp>
 
 Set the following environment variable (i.e. using `heroku
 config:set`) for your app:
